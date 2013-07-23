@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C01401CF3894BC69028AA0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F996B4B93BB4D6E98090D75 /* libPods.a */; };
+		3EE8E4CCDFA742688D3D3A52 /* libPods-JGAFetchedTablesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5285788EE14CC3B0326184 /* libPods-JGAFetchedTablesTests.a */; };
 		7BA1D64E179EF4DF00A0353F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1D64D179EF4DF00A0353F /* UIKit.framework */; };
 		7BA1D650179EF4DF00A0353F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1D64F179EF4DF00A0353F /* Foundation.framework */; };
 		7BA1D652179EF4DF00A0353F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1D651179EF4DF00A0353F /* CoreGraphics.framework */; };
@@ -24,6 +26,12 @@
 		7BA1D674179EF4DF00A0353F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1D653179EF4DF00A0353F /* CoreData.framework */; };
 		7BA1D67C179EF4DF00A0353F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BA1D67A179EF4DF00A0353F /* InfoPlist.strings */; };
 		7BA1D67F179EF4DF00A0353F /* JGAFetchedTablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D67E179EF4DF00A0353F /* JGAFetchedTablesTests.m */; };
+		7BA1D68B179EF87200A0353F /* JGABasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D68A179EF87200A0353F /* JGABasicTableViewController.m */; };
+		7BA1D68F179EF88300A0353F /* JGADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D68E179EF88300A0353F /* JGADataFetcher.m */; };
+		7BA1D697179EF88F00A0353F /* JGAFetchedTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D692179EF88F00A0353F /* JGAFetchedTableDataSource.m */; };
+		7BA1D698179EF88F00A0353F /* JGAEmptyTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D694179EF88F00A0353F /* JGAEmptyTableDataSource.m */; };
+		7BA1D699179EF88F00A0353F /* JGALoadingTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D696179EF88F00A0353F /* JGALoadingTableDataSource.m */; };
+		7BA1D69C179EF99B00A0353F /* JGATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1D69B179EF99B00A0353F /* JGATableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5285788EE14CC3B0326184 /* libPods-JGAFetchedTablesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JGAFetchedTablesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F996B4B93BB4D6E98090D75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA1D64A179EF4DF00A0353F /* JGAFetchedTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGAFetchedTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA1D64D179EF4DF00A0353F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BA1D64F179EF4DF00A0353F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,22 @@
 		7BA1D67B179EF4DF00A0353F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BA1D67D179EF4DF00A0353F /* JGAFetchedTablesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAFetchedTablesTests.h; sourceTree = "<group>"; };
 		7BA1D67E179EF4DF00A0353F /* JGAFetchedTablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAFetchedTablesTests.m; sourceTree = "<group>"; };
+		7BA1D689179EF87200A0353F /* JGABasicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGABasicTableViewController.h; sourceTree = "<group>"; };
+		7BA1D68A179EF87200A0353F /* JGABasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGABasicTableViewController.m; sourceTree = "<group>"; };
+		7BA1D68C179EF88300A0353F /* JGADataFetcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGADataFetcherDelegate.h; sourceTree = "<group>"; };
+		7BA1D68D179EF88300A0353F /* JGADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGADataFetcher.h; sourceTree = "<group>"; };
+		7BA1D68E179EF88300A0353F /* JGADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGADataFetcher.m; sourceTree = "<group>"; };
+		7BA1D690179EF88F00A0353F /* JGAFetchedTableDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAFetchedTableDataSourceDelegate.h; sourceTree = "<group>"; };
+		7BA1D691179EF88F00A0353F /* JGAFetchedTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAFetchedTableDataSource.h; sourceTree = "<group>"; };
+		7BA1D692179EF88F00A0353F /* JGAFetchedTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAFetchedTableDataSource.m; sourceTree = "<group>"; };
+		7BA1D693179EF88F00A0353F /* JGAEmptyTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAEmptyTableDataSource.h; sourceTree = "<group>"; };
+		7BA1D694179EF88F00A0353F /* JGAEmptyTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAEmptyTableDataSource.m; sourceTree = "<group>"; };
+		7BA1D695179EF88F00A0353F /* JGALoadingTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGALoadingTableDataSource.h; sourceTree = "<group>"; };
+		7BA1D696179EF88F00A0353F /* JGALoadingTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGALoadingTableDataSource.m; sourceTree = "<group>"; };
+		7BA1D69A179EF99B00A0353F /* JGATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGATableCell.h; sourceTree = "<group>"; };
+		7BA1D69B179EF99B00A0353F /* JGATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGATableCell.m; sourceTree = "<group>"; };
+		81E744CEDB654FE999DCA8B7 /* Pods-JGAFetchedTablesTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAFetchedTablesTests.xcconfig"; path = "Pods/Pods-JGAFetchedTablesTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E0FB34EE5AE643D0A940FB82 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +95,7 @@
 				7BA1D650179EF4DF00A0353F /* Foundation.framework in Frameworks */,
 				7BA1D652179EF4DF00A0353F /* CoreGraphics.framework in Frameworks */,
 				7BA1D654179EF4DF00A0353F /* CoreData.framework in Frameworks */,
+				2C01401CF3894BC69028AA0C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +107,7 @@
 				7BA1D672179EF4DF00A0353F /* UIKit.framework in Frameworks */,
 				7BA1D673179EF4DF00A0353F /* Foundation.framework in Frameworks */,
 				7BA1D674179EF4DF00A0353F /* CoreData.framework in Frameworks */,
+				3EE8E4CCDFA742688D3D3A52 /* libPods-JGAFetchedTablesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +117,13 @@
 		7BA1D641179EF4DF00A0353F = {
 			isa = PBXGroup;
 			children = (
-				7BA1D655179EF4DF00A0353F /* JGAFetchedTables */,
+				7BA1D688179EF84200A0353F /* JGAFetchedTables */,
+				7BA1D655179EF4DF00A0353F /* Example */,
 				7BA1D677179EF4DF00A0353F /* JGAFetchedTablesTests */,
 				7BA1D64C179EF4DF00A0353F /* Frameworks */,
 				7BA1D64B179EF4DF00A0353F /* Products */,
+				E0FB34EE5AE643D0A940FB82 /* Pods.xcconfig */,
+				81E744CEDB654FE999DCA8B7 /* Pods-JGAFetchedTablesTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,11 +144,13 @@
 				7BA1D651179EF4DF00A0353F /* CoreGraphics.framework */,
 				7BA1D653179EF4DF00A0353F /* CoreData.framework */,
 				7BA1D670179EF4DF00A0353F /* SenTestingKit.framework */,
+				5F996B4B93BB4D6E98090D75 /* libPods.a */,
+				1B5285788EE14CC3B0326184 /* libPods-JGAFetchedTablesTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7BA1D655179EF4DF00A0353F /* JGAFetchedTables */ = {
+		7BA1D655179EF4DF00A0353F /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				7BA1D65E179EF4DF00A0353F /* JGAAppDelegate.h */,
@@ -125,7 +158,7 @@
 				7BA1D667179EF4DF00A0353F /* JGAFetchedTables.xcdatamodeld */,
 				7BA1D656179EF4DF00A0353F /* Supporting Files */,
 			);
-			path = JGAFetchedTables;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		7BA1D656179EF4DF00A0353F /* Supporting Files */ = {
@@ -161,6 +194,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7BA1D688179EF84200A0353F /* JGAFetchedTables */ = {
+			isa = PBXGroup;
+			children = (
+				7BA1D68C179EF88300A0353F /* JGADataFetcherDelegate.h */,
+				7BA1D68D179EF88300A0353F /* JGADataFetcher.h */,
+				7BA1D68E179EF88300A0353F /* JGADataFetcher.m */,
+				7BA1D689179EF87200A0353F /* JGABasicTableViewController.h */,
+				7BA1D68A179EF87200A0353F /* JGABasicTableViewController.m */,
+				7BA1D690179EF88F00A0353F /* JGAFetchedTableDataSourceDelegate.h */,
+				7BA1D691179EF88F00A0353F /* JGAFetchedTableDataSource.h */,
+				7BA1D692179EF88F00A0353F /* JGAFetchedTableDataSource.m */,
+				7BA1D693179EF88F00A0353F /* JGAEmptyTableDataSource.h */,
+				7BA1D694179EF88F00A0353F /* JGAEmptyTableDataSource.m */,
+				7BA1D695179EF88F00A0353F /* JGALoadingTableDataSource.h */,
+				7BA1D696179EF88F00A0353F /* JGALoadingTableDataSource.m */,
+				7BA1D69A179EF99B00A0353F /* JGATableCell.h */,
+				7BA1D69B179EF99B00A0353F /* JGATableCell.m */,
+			);
+			path = JGAFetchedTables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BA1D682179EF4DF00A0353F /* Build configuration list for PBXNativeTarget "JGAFetchedTables" */;
 			buildPhases = (
+				0CE481426790495DA8915F53 /* Check Pods Manifest.lock */,
 				7BA1D646179EF4DF00A0353F /* Sources */,
 				7BA1D647179EF4DF00A0353F /* Frameworks */,
 				7BA1D648179EF4DF00A0353F /* Resources */,
+				D8AF3FAF0567473DAF0731C9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,10 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BA1D685179EF4DF00A0353F /* Build configuration list for PBXNativeTarget "JGAFetchedTablesTests" */;
 			buildPhases = (
+				FFE2EE3FD97F4BD9912050BA /* Check Pods Manifest.lock */,
 				7BA1D66A179EF4DF00A0353F /* Sources */,
 				7BA1D66B179EF4DF00A0353F /* Frameworks */,
 				7BA1D66C179EF4DF00A0353F /* Resources */,
 				7BA1D66D179EF4DF00A0353F /* ShellScript */,
+				4783EF6FD67546598B8EF135 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +309,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CE481426790495DA8915F53 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4783EF6FD67546598B8EF135 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-JGAFetchedTablesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7BA1D66D179EF4DF00A0353F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +352,36 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		D8AF3FAF0567473DAF0731C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE2EE3FD97F4BD9912050BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -274,6 +392,12 @@
 				7BA1D65C179EF4DF00A0353F /* main.m in Sources */,
 				7BA1D660179EF4DF00A0353F /* JGAAppDelegate.m in Sources */,
 				7BA1D669179EF4DF00A0353F /* JGAFetchedTables.xcdatamodeld in Sources */,
+				7BA1D68B179EF87200A0353F /* JGABasicTableViewController.m in Sources */,
+				7BA1D68F179EF88300A0353F /* JGADataFetcher.m in Sources */,
+				7BA1D697179EF88F00A0353F /* JGAFetchedTableDataSource.m in Sources */,
+				7BA1D698179EF88F00A0353F /* JGAEmptyTableDataSource.m in Sources */,
+				7BA1D699179EF88F00A0353F /* JGALoadingTableDataSource.m in Sources */,
+				7BA1D69C179EF99B00A0353F /* JGATableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +499,11 @@
 		};
 		7BA1D683179EF4DF00A0353F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FB34EE5AE643D0A940FB82 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGAFetchedTables/JGAFetchedTables-Prefix.pch";
-				INFOPLIST_FILE = "JGAFetchedTables/JGAFetchedTables-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JGAFetchedTables-Prefix.pch";
+				INFOPLIST_FILE = "Example/JGAFetchedTables-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,10 +511,11 @@
 		};
 		7BA1D684179EF4DF00A0353F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FB34EE5AE643D0A940FB82 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGAFetchedTables/JGAFetchedTables-Prefix.pch";
-				INFOPLIST_FILE = "JGAFetchedTables/JGAFetchedTables-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JGAFetchedTables-Prefix.pch";
+				INFOPLIST_FILE = "Example/JGAFetchedTables-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,15 +523,17 @@
 		};
 		7BA1D686179EF4DF00A0353F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E744CEDB654FE999DCA8B7 /* Pods-JGAFetchedTablesTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JGAFetchedTables.app/JGAFetchedTables";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGAFetchedTables/JGAFetchedTables-Prefix.pch";
-				INFOPLIST_FILE = "JGAFetchedTablesTests/JGAFetchedTablesTests-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JGAFetchedTables-Prefix.pch";
+				INFOPLIST_FILE = "Example/JGAFetchedTablesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -414,15 +542,17 @@
 		};
 		7BA1D687179EF4DF00A0353F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E744CEDB654FE999DCA8B7 /* Pods-JGAFetchedTablesTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JGAFetchedTables.app/JGAFetchedTables";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JGAFetchedTables/JGAFetchedTables-Prefix.pch";
-				INFOPLIST_FILE = "JGAFetchedTablesTests/JGAFetchedTablesTests-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JGAFetchedTables-Prefix.pch";
+				INFOPLIST_FILE = "Example/JGAFetchedTablesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -448,6 +578,7 @@
 				7BA1D684179EF4DF00A0353F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BA1D685179EF4DF00A0353F /* Build configuration list for PBXNativeTarget "JGAFetchedTablesTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +587,7 @@
 				7BA1D687179EF4DF00A0353F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

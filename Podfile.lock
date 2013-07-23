@@ -1,0 +1,16 @@
+PODS:
+  - Kiwi (2.2)
+  - MagicalRecord (2.1)
+  - SSPullToRefresh (1.1.2)
+
+DEPENDENCIES:
+  - Kiwi
+  - MagicalRecord (~> 2.1)
+  - SSPullToRefresh
+
+SPEC CHECKSUMS:
+  Kiwi: db174bba4ee8068b15d7122f1b22fb64b7c1d378
+  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
+  SSPullToRefresh: 8d8360b0ff0dc7b344656b48ddf9732c47e78806
+
+COCOAPODS: 0.22.2
